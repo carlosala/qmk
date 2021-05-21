@@ -1,2 +1,3 @@
-NKRO_ENABLE = yes # USB Nkey Rollover
-UNICODE_ENABLE = yes # Enable Unicode Characters
+NKRO_ENABLE = yes
+TAP_DANCE_ENABLE = yes
+UNICODE_ENABLE = yes
