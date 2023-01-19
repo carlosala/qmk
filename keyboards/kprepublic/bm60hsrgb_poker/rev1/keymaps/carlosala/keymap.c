@@ -23,3 +23,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______, _______, _______, _______, UC(0x00B7), _______, _______,
         _______, _______, _______, _______, _______, _______, _______, QK_BOOT)
 };
+
+bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case RSFT_T(KC_CAPS):
+            return false;
+        default:
+            return true;
+    }
+}
