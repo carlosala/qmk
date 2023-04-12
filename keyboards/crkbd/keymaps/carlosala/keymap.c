@@ -15,7 +15,7 @@ enum user_layers {
 #define SYM_ENT LT(_SYM, KC_ENT)
 
 #define CTL_ESC LCTL_T(KC_ESC)
-#define CTL_QUO RCTL_T(KC_QUOT)
+#define CTL_QUO LCTL_T(KC_QUOT)
 #define LAL_SPC LALT_T(KC_SPC)
 #define RAL_SPC RALT_T(KC_SPC)
 #define SFT_CPS RSFT_T(KC_CAPS)
