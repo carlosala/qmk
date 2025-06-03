@@ -3,7 +3,7 @@
 
 #pragma once
 
-#define FORCE_NKRO
+#define NKRO_DEFAULT_ON true
 #define PERMISSIVE_HOLD
 #define RETRO_TAPPING_PER_KEY
 #define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX
