@@ -3,7 +3,6 @@
 
 #pragma once
 
-#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define NKRO_DEFAULT_ON true
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 150
