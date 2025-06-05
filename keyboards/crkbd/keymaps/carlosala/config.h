@@ -3,6 +3,7 @@
 
 #pragma once
 
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 #define NKRO_DEFAULT_ON true
 #define PERMISSIVE_HOLD
 #define TAPPING_TERM 150
