@@ -12,9 +12,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LGUI, KC_LALT, KC_SPC, KC_RALT, MO(1), KC_APP, KC_RCTL),
     [1] = LAYOUT_60_ansi(
         _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11, KC_F12, _______,
-        _______, RGB_MOD, RGB_SPI, RGB_HUI, RGB_SAI, RGB_VAI, _______, KC_HOME, KC_END, _______, KC_PSCR, _______, _______, _______,
-        _______, RGB_RMOD, RGB_SPD, RGB_HUD, RGB_SAD, RGB_VAD, _______, _______, _______, _______, _______, _______, _______,
-        _______, RGB_TOG, _______, KC_MUTE, KC_VOLD, KC_VOLU, KC_BRID, KC_BRIU, _______, _______, _______, _______,
+        _______, UG_NEXT, UG_SPDU, UG_HUEU, UG_SATU, UG_VALU, _______, KC_HOME, KC_END, _______, KC_PSCR, _______, _______, _______,
+        _______, UG_PREV, UG_SPDD, UG_HUED, UG_SATD, UG_VALD, _______, _______, _______, _______, _______, _______, _______,
+        _______, UG_TOGG, _______, KC_MUTE, KC_VOLD, KC_VOLU, KC_BRID, KC_BRIU, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______),
     [2] = LAYOUT_60_ansi(
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
